@@ -1,0 +1,398 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/backgr.jpg);
+  /* Picture taken by Tom from Pixabay https://pixabay.com/no/photos/kafe-bygning-hellas-%c3%b8ya-karpathos-3537801/ */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 1% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 150px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+.nav-links ul li:after{
+  content:"";
+  width: 0%;
+  height: 3px;
+  background: #7ab4b9;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+.text-box{
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.text-box h1{
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 62px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color:#fff
+}
+.photographer{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: -250px;
+}
+.photographer p{
+  color: rgba(255, 255, 255, 0.31);
+}
+/** hero-btn **/
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 34px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover{
+  border: 1px solid #7ab4b9;
+  background: #7ab4b9;
+  transition: 1s;
+}
+/** hero-btn end**/
+nav .fa{
+  display: none;
+}
+
+/*** header end***/
+
+/***offers***/
+.offers {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  
+}
+.offers h1{ 
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 600px;
+}
+.offers p{
+  color:rgb(29, 29, 29);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+}
+.offer-col{
+  flex-basis: 31%;
+  background: #a6cfd2;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 20px 20px;
+  position: relative;
+}
+.offer-col a {
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration: none;
+}
+.offer-col a:visited{
+  color: black;
+}
+h3{ 
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.offer-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+/** offers end **/
+
+/** facilities **/
+
+.facilities{ 
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.facilities h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 36x;
+  font-weight: 600px;
+}
+.facilities p{
+  color:rgb(29, 29, 29);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.facil-col{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+.facil-col img{
+  width: 30vw;
+  
+  border-radius: 10px;
+  height: 18vw;
+  
+  border-radius: 10px;
+}
+.facil-col p{
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.facil-col h3{
+  margin: top 16px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+}
+
+
+/** call to action **/
+.cta{ 
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+  url("/img/tavern-g98dc36b81_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.cta h1{
+  color:#fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+/** book button **/
+.cta a {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+}
+.cta a:hover{
+  background:#7ab4b9;
+  color: #fff;
+  transition: 1s;
+}
+/** call to action end **/   
+
+/** footer **/
+.footer{
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 15%;
+  background: #7ab4b9;
+  color:rgb(0, 0, 0);;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  display: flex;
+}
+.footer div {
+  text-align: center;
+}
+.col-2{
+  flex-grow: 2;
+}
+.footer div h3{
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.footer div p{
+  font-size: 14px;
+}
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);;
+  margin-bottom: 10px;
+}
+.col-1 a:hover{
+  color: #fff;
+  transition: 0.5s;
+}
+form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+form button{
+  background: transparent;
+  border: 2px solid rgb(0, 0, 0);;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.icons{
+  margin-top: 30px;
+}
+.icons i{
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+.icons i:hover{
+  color: #fff;
+  transition: 00.5s;
+}
+
+/**footer end**/
+/** copyright **/
+.copyright{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #7ab4b9;
+  padding-bottom: 20px;
+}
+
+
+/** media query **/
+@media (max-width: 800px) 
+{
+.text-box h1{
+  margin: auto;
+  font-size: 50px;
+  text-align: center;
+}
+.nav-links ul li{
+  display: block;
+}
+.nav-links{
+  position: absolute;
+  background: #7ab4b9;
+  height: 100vh;
+  width: 200px;
+  top: 0;
+  right: -200px;
+  text-align: left;
+  z-index: 2;
+  transition: 1s;
+}
+nav .fa{
+  display: block;
+  color: #fff;
+  margin: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.nav-links ul{
+  padding: 30px;
+}
+.facil-col img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px
+}
+.row{ 
+  flex-direction: column;
+}
+.cta h1{
+    font-size: 24px;
+}
+ /** footer**/
+.footer{
+  flex-direction: column;
+}
+.footer div h3{
+margin-top: 25px;
+margin-bottom: 10px;
+}
+.copyright{
+flex-direction: column;
+}
+}
+
+@media (max-width: 1280px){
+  .text-box h1{
+    font-size: 30px;
+  }
+
+}
