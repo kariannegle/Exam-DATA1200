@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <!-- Meta viewport-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta information -->
+        <title>Web eksamen</title>
+        <meta name="author" content="gruppe 46">
+    
+        <!-- Stylesheet -->    
+        <link rel="stylesheet" href="/css/booking.css">
+        <!-- font link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <!-- icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  <body>
+    <!-- header -->
+    <section class="header">
+      <!-- nav-->
+      <nav>
+          <a href="index.html"><img src="/img/lojo.jpg"></a>
+          <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="booking.html">BOOKING</a></li>
+                  <li><a href="resturant.html">MENUS</a></li>
+                  <li><a href="accessibility.html">ACCESSIBILITY PAGE</a></li>
+                  <li><a href="topical.html">TOPICAL PAGE</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <!-- nav end-->
+      <!--Bildet hentet fra-->
+     <h1>booking</h1> 
+     <!-- Bilde hentet fra https://pixabay.com/no/photos/servering-vakker-interi%c3%b8r-410832/ -->
+      </div>
+    </section>
+    <!-- header end-->
+
+    <!-- About Lujo Juno -->
+    <section class="about-lujo-juno">
+      <div class="about">
+        <h2>About Lujo Juno</h2>
+        <p>Lujo Juno has for several generations, under the auspices of the Lujo Juno family, been known for delicious food and a pleasant atmosphere - as well as a beautiful venue with a lovely view of the sea.
+        </p>
+      </div>
+      <div class="row">
+          <!-- facil col-->
+          <div class="about-col">
+              <img src="/img/tavern.jpg" alt="Picture of the outdoor area and ocen view">
+              <!-- Bilde hentet fra https://pixabay.com/no/photos/taverna-hellas-restaurant-bar-5541222/ -->
+          </div>
+          <!-- about col end-->  
+          <div class="about-col">
+          <h2>Our restaurant</h2>
+                  <p>We run like a normal restaurant on the weekdays and rent out our large venue. Our venue has space for 100 people, with an outdoor area and an indoor area. You can book our venue with or without a restaurant.</p>
+                  <br>
+                  <h2>Dinner or book our place</h2>
+                  <p>Just come by for a delicious meal or book our venue here on the website.</p>
+                  <br>
+                </div>
+      </div>
+  </section>       
+   <!-- About Lujo Juno end -->
+
+   <!-- restaurant info -->
+   <section class="restaurant-info">
+    <div class="text-above-col">
+                <h3>You are welcomed at Lujo Juno!</h3>
+                <br>
+                <p>We are pleased to welcome you to our restaurant.
+                  We hope you will enjoy both the food and the atmosphere.</p>
+    </div>
+    <div class="row2">
+        <!-- restaurant info col-->
+        <div class="restaurant-info-col">
+          <i class="fa fa-clock-o"></i>
+                <h3>11:00 - 22:00</h3>
+                <p>Opening hours</p>
+        </div>
+        <div class="restaurant-info-col">
+          <i class="fa fa-map-pin"></i>
+                <h3>LOCATION</h3>
+                <p>Location</p>
+        </div>
+        <div class="restaurant-info-col">
+          <i class="fa fa-comments"></i>
+                <h3>E-MAIL</h3>
+                <p>Email@gmail.com</p>
+        </div>
+        <!-- restaurant info col end-->  
+    </div>
+</section>       
+ <!-- restaurant info end -->
+
+ <!-- slideshow -->
+ <div class="slideshow-container">
+
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+    <img src="/img/blue-restaurant.jpg " alt="Picture of the outdoor area">
+    <!--https://www.euronews.com/travel/2020/01/25/what-it-s-really-like-to-stay-at-greece-s-most-coveted-hotel-->
+    <div class="text">Our outdoor area</div>
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+    <img src="/img/wine.jpg" alt=" Picture of the food and drink">
+    <!--https://pixabay.com/no/photos/vin-vinglass-vino-feiring-lykkelig-6174460/--->
+    <div class="text">Enjoy our delicious food</div>
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+    <img src="/img/santorini.jpg" alt="Picture of the view to the ocean"> 
+    <!--https://pixabay.com/no/photos/santorini-hellas-hav-by-kyst-vann-4825173/--> 
+    <div class="text">Beautiful view towards the ocean</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+    <img src="/img/dining.jpg" alt="Picture of the restaurant"> 
+    <!--https://pixabay.com/no/photos/servering-vakker-interi%c3%b8r-410832/-->
+
+    <div class="text">Inside the restaurant</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+  </div>
+  
+  <!-- javascript for slideshow -->
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    <!-- javascript for slideshow end-->
+    <!-- slideshow end -->
+
+
+ <!-- Code from https://codepen.io/tutsplus/pen/wNaGjy -->
+ <form action="reservation.php" method="post">
+  <div class="bookingpage">
+  <div class="bookingform-header">
+    <h3>Bookingform</h3>
+      <p>Fill inn the bookingform to book our venue!</p>
+  </div>
+  <div class="elem-group-start">
+    <label for="name">
+      <p class="booking-text">Name</p>
+    </label>
+    <input type="text" id="name" name="visitor_name" placeholder="Your Name" >
+  </div>
+  <div class="elem-group">
+    <label for="email">
+      <p class="booking-text">E-mail</p>
+    </label>
+    <input type="email" id="email" name="visitor_email" placeholder="your@email.com">
+  </div>
+  <div class="elem-group">
+    <label for="phone">
+      <p class="booking-text">Phonenumber</p>
+    </label>
+    <input type="tel" id="phone" name="visitor_phone" placeholder="123456789">
+  </div>
+  
+  <div class="elem-group">
+    <label for="adult">
+      <p class="booking-text">How many people (0 - 100)</p>
+    </label>
+    <input type="number" id="adult" name="total_adults" placeholder="1" min="1" max="100">
+  </div>
+  
+  <div class="elem-group">
+    <label for="checkin-date">
+      <p class="booking-text">Pick a date</p>
+    </label>
+    <input type="date" id="checkin-date" name="checkin" required>
+  </div>
+  <div class="elem-group">
+    <label for="checkout-date">
+      <p class="booking-text">Time</p>
+    </label>
+    <input type="time" id="time" name="checkout" required>
+  </div>
+  <div class="elem-group">
+    <label for="room-selection">
+      <p class="booking-text">What type of event is it?</p>
+    </label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="">Choose type of event from the List</option>
+        <option value="connecting">Birthday</option>
+        <option value="adjoining">Party</option>
+        <option value="adjacent">Wedding</option>
+        <option value="adjacent">Another</option>
+    </select>
+  </div>
+  
+  <div class="elem-group">
+    <label for="room-selection">
+      <p class="booking-text">Restaurant options</p>
+    </label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="">Choose an option from the List</option>
+        <option value="connecting">Event without restaurant</option>
+        <option value="adjoining">Event included restaurant</option>
+    </select>
+  </div>
+
+  <div class="elem-group-end">
+    <label for="message">
+      <p class="booking-text">More information</p>
+    </label>
+    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important."></textarea>
+  </div>
+</div>
+</form>
+<!-- booking form end -->
+
+<!-- button -->
+    <div class="button">
+      <form action="thankyou.html">
+      <button type="submit">Book</button>
+      </form>
+    </div>
+    <!-- button -->
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="col-1">
+          <h3>USEFUL LINKS</h3>
+          <a href="/html/booking.html">BOOKING</a>
+          <a href="/html/resturant.html">MENUS</a>
+          <a href="/html/accessibility.html">ACCESSIBILITY PAGE</a>
+      </div>
+      <div class="col-2">
+          <h3>OPENING HOURS</h3>
+          <p>Mon-Fri: 10:00-01:00 <br>
+          Sat-Sun: 11:00-02:00
+          </p>
+          <br>
+          <p>Drinking hours: 11:00-02:00 <br>
+              Restaurant hours: 11:00-22:30
+          </p>
+          <br>
+          <p> Extended opening hours 09:00-04:00<br> *by booking a venue</p>
+      </div>
+      <div class="col-3">
+          <h3>CONTACT</h3>
+          <p>123, Somewhere Road, IN 4<br>
+              The World, Earth</p>
+          <div class="icons">
+              <i class="fa fa-facebook-square"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-envelope"></i>
+              <i class="fa fa-phone"></i>
+          </div>
+      </div>      
+</section>
+<div class="copyright">Copyright © 2022 by Data1200 Gruppe 1200. All rights reserved.</div>
+<!-- footer -->
+
+
+        
+         <!-- javascript for toggle menu-->
+         <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+    
+        </script>
+        
+
+        </body> 

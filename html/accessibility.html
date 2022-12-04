@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <!-- Meta viewport-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta information -->
+        <title>Web eksamen</title>
+        <meta name="author" content="gruppe 46">
+    
+        <!-- Stylesheet -->    
+        <link rel="stylesheet" href="/css/accessibility.css">
+        <!-- font link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <!-- icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--header start-->
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="/img/lojo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="booking.html">BOOKING</a></li>
+                        <li><a href="resturant.html">MENUS</a></li>
+                        <li><a href="accessibility.html">ACCESSIBILITY PAGE</a></li>
+                        <li><a href="topical.html">TOPICAL PAGE</a></li>
+                    </ul>
+                </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>ACCESSIBILITY PAGE</h1>
+                </div>
+        </section>¨
+        <!--header end-->
+
+        <div class="main-text">
+            <p>A website should include <q cite="https://universaldesign.org/definition"><i>universal design that's 
+            usable by all people,to the greatest extent possible,(...)</i></q> 
+            (Ron Mace, 1985). While making our website, our goal was to make a minimalist website 
+            that would be easy to use by all people. We started with a minimalistic design that 
+            included boxes and big spaces, to make it easier to navigate for all types of viewers. 
+            After finishing up, the website was run through the Wave accessibility test, 
+            so we could evaluate how accessible it was. 
+            </p>
+            <p>We received feedback on contrast, took it with us and made sure to create better 
+            contrasts both in the text and on the whole site. We made sure to highlight titles 
+            and important headings. An example is that we made sure that they had bigger font-size from the regular text. By doing this, it will be easier to go through the website and find what you are looking for. This also makes the site more tidy to look at. Across the website, a clean font was used so the text was easy to read.
+            </p>
+
+            <img src="/img/what-we-offer.png" alt="Screenshot of titels from homepage">
+            <img src="/img/our-facilities.png" alt="Screenshot of other titels from homepage">
+            
+            <p>Contrast is important when it comes to people that have visual impairments 
+                such as blindness and color blindness. So to make better color contrasts on the website,
+                we changed colors so there was bigger contrast between them. An example is a change of colors 
+                on the info boxes. We did the background color darker and the text lighter. We also added alternative text to pictures to make them accessible for text-to-speech.
+            </p>
+
+            <img src="/img/contrast-before.png" alt="Screenshot of bookingpage before contrast change">
+            <img src="/img/contrast-css.png" alt="Screenshot of css for bookingpage">
+            <img src="/img/contrast-after.png" alt="Screenshot of bookingpage after contrast change">
+
+            <p>We also added alternative text to pictures to make them accessible for text-to-speech.</p>
+            <img src="/img/alternative-text.png" alt="Screenshot of alternate text from CSS">
+            <p>A big part of universal design is accessibility. 
+                Since a web system should be usable by as many people as possible, 
+                <q><i>Individuals should not have to change the way they typically interact with something.</i></q>
+                (Denis Larsen, 2022) Therefore a website should be able to be used on different screen sizes. 
+                To make sure our website was responsive, we used “inspect” and dragged the edges to ensure it 
+                fit different screen sizes. This way we could change the CSS so it made the website more accessible.
+                We also used media query and (...).
+            </p>
+            <img src="/img/responsive.png" alt="Screenshot of inspect of Lujo Juno">
+
+            <div class="references">
+                <h3>References</h3>
+                <p>The UD project. (n.d.). What is Universal Design? The Universal Design Project. 
+                Retrieved December 4, 2022, from https://universaldesign.org/definition
+                </p>
+                <p>Larsen, Denis. (2022). Inclusive Web Design[PowerPoint slides]. 
+                Retrieved December 4, 2022, from https://oslomet.instructure.com/courses/24262/files/2991008?module_item_id=496178
+                </p>
+            </div>
+        </div>
+
+
+  
+        <!-- footer -->
+        <section class="footer">
+                <div class="col-1">
+                    <h3>USEFUL LINKS</h3>
+                    <a href="/html/booking.html">BOOKING</a>
+                    <a href="/html/resturant.html">MENUS</a>
+                    <a href="/html/accessibility.html">ACCESSIBILITY PAGE</a>
+                </div>
+                <div class="col-2">
+                    <h3>OPENING HOURS</h3>
+                    <p>Mon-Fri: 10:00-01:00 <br>
+                    Sat-Sun: 11:00-02:00
+                    </p>
+                    <br>
+                    <p>Drinking hours: 11:00-02:00 <br>
+                        Restaurant hours: 11:00-22:30
+                    </p>
+                    <br>
+                    <p> Extended opening hours 09:00-04:00<br> *by booking a venue</p>
+                </div>
+                <div class="col-3">
+                    <h3>CONTACT</h3>
+                    <p>123, Somewhere Road, IN 4<br>
+                        The World, Earth</p>
+                    <div class="icons">
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-envelope"></i>
+                        <i class="fa fa-phone"></i>
+                    </div>
+                </div>      
+        </section>
+        <div class="copyright">Copyright © 2022 by Data1200 Gruppe 1200. All rights reserved.</div>
+        <!--footer end-->
+
+        <!-- javascript for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+            navLinks.style.right = "0";
+            }
+            function hideMenu(){
+            navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body> 
+    

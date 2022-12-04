@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <!-- Meta viewport-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta information -->
+        <title>Web eksamen</title>
+        <meta name="author" content="gruppe 46">
+    
+        <!-- Stylesheet -->    
+        <link rel="stylesheet" href="/css/topical.css">
+        <!-- font link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <!-- icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--header start -->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="/img/lojo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="booking.html">BOOKING</a></li>
+                        <li><a href="resturant.html">MENUS</a></li>
+                        <li><a href="accessibility.html">ACCESSIBILITY PAGE</a></li>
+                        <li><a href="topical.html">TOPICAL PAGE</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>topical page</h1>
+            <a href="#tekst" class ="btn">Explore</a>
+            <!--Bildet hentet fra https://www.stockvault.net/photo/240421/myrtos-beach-kefalonia-island-shore-sea-->
+           
+        </section>
+        <!--header end-->
+
+        <!--page content start-->
+        <section class="page-content" id="tekst">
+            <div class="title">
+                <h2>Technology and society</h2>
+            </div>
+            <div class="sub-text">
+                <p>This text is about the development of social media and chat services is relevant for studies within informations technology. Studies in this area provide competence to be able to develop website and apps witch we in this society use in everyday life</p>
+                <br>
+                <p>The technology is also developed in line with changes in society. According to a survey carried out by Global social media statics are we only unsing social media and chat services, to communicate today, and not as much of the older methods such as letters<a href="https://www.smartinsights.com/social-media-marketing/social-media-strategy/new-global-social-media-research/" target="_blank">(Chaffey 2022).</a></p>
+                <br>
+                <p>This technology is relevant for studies within IT, because it is constanly used to communcate and make group work more efficient. We all have differend routines and therefore contact contact through social meldia is an important function to achieve good group work. Since you can easily share documents and tasks, as well discuss.</p>
+            </div>
+            <div class="title">
+                <h3>social media</h3>
+            </div>
+            <div class="sub-text">
+                <p>Knut Jørgen Vie expresses that changes in society's values ​​can affect the development of various technologies, and he highlights social media as an example. In the video, Vie says "this technology has had a significant impact on the social life for many people, but the values ​​these people hold are finding their way back into technology" <a href="https://oslomet.instructure.com/courses/24260/pages/1-dot-2-technology-values-and-society?module_item_id=454447" target="_blank">(Oslomet, 2018-2020, 5:49).</a></p>
+                <br>
+                <p>Social media and chat services have evolved to become more complex and people who use these platforms have had their values ​​shaped. This is done by actively engaging with other people, for example family, friends or other students. As a society, we have thus defined social media as the "informal way" to seek out and keep in touch.</p>
+                <br>
+                <p>The development of social media and chat services has influenced the social norms in today's society. This is because we humans today communicate almost exclusively through social media. We are positive about the development since we as students can easily keep in touch with other students today.</p>
+            </div>
+        </section>
+        <!--page content end-->
+        <div class="img">
+            <img scr="/img/earth.jpg" alt="">
+            <span class="photographer"><p>Picture Pete Linforth</p></span>
+            <!----Bildet hentet fra: https://pixabay.com/no/photos/jord-internett-globalisering-2254769/-->
+        </div>
+        
+
+       <!-- footer -->
+       <section class="footer">
+        <div class="col-1">
+            <h3>USEFUL LINKS</h3>
+            <a href="/html/booking.html">BOOKING</a>
+            <a href="/html/resturant.html">MENUS</a>
+            <a href="/html/accessibility.html">ACCESSIBILITY PAGE</a>
+        </div>
+        <div class="col-2">
+            <h3>OPENING HOURS</h3>
+            <p>Mon-Fri: 10:00-01:00 <br>
+            Sat-Sun: 11:00-02:00
+            </p>
+            <br>
+            <p>Drinking hours: 11:00-02:00 <br>
+                Restaurant hours: 11:00-22:30
+            </p>
+            <br>
+            <p> Extended opening hours 09:00-04:00<br> *by booking a venue</p>
+        </div>
+        <div class="col-3">
+            <h3>CONTACT</h3>
+            <p>123, Somewhere Road, IN 4<br>
+                The World, Earth</p>
+            <div class="icons">
+                <i class="fa fa-facebook-square"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-envelope"></i>
+                <i class="fa fa-phone"></i>
+            </div>
+        </div>      
+        </section>
+        <div class="copyright">Copyright © 2022 by Data1200 Gruppe 1200. All rights reserved.</div>
+    
+    <!-- javascript for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+            navLinks.style.right = "0";
+            }
+            function hideMenu(){
+            navLinks.style.right = "-200px";
+            }
+        </script>
+    </body> 
